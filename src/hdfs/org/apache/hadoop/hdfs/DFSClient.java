@@ -231,6 +231,7 @@ public class DFSClient implements FSConstants, java.io.Closeable {
     this(nameNodeAddr, conf, null);
   }
 
+  
   /**
    * Same as this(nameNodeAddr, null, conf, stats);
    * @see #DFSClient(InetSocketAddress, ClientProtocol, Configuration, org.apache.hadoop.fs.FileSystem.Statistics) 
