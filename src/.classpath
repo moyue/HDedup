@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="contrib/streaming/src/test/org/apache/hadoop/streaming"/>
-	<classpathentry kind="src" path="contrib/streaming/src/test/system"/>
-	<classpathentry kind="src" path="contrib/thriftfs/gen-java"/>
-	<classpathentry kind="src" path="contrib/thriftfs/src/java"/>
-	<classpathentry kind="src" path="contrib/thriftfs/test"/>
-	<classpathentry kind="src" path="contrib/vaidya/src/java"/>
 	<classpathentry kind="src" path="core"/>
 	<classpathentry kind="src" path="examples"/>
 	<classpathentry kind="src" path="hdfs"/>
 	<classpathentry kind="src" path="mapred"/>
 	<classpathentry excluding="system/java/|system/java/shared/|org/apache/hadoop/mapred/join/|system/validation/|aop/" kind="src" path="test"/>
-	<classpathentry kind="src" path="test/aop"/>
-	<classpathentry kind="src" path="test/org/apache/hadoop/mapred/join"/>
-	<classpathentry excluding="shared/" kind="src" path="test/system/java"/>
-	<classpathentry kind="src" path="test/system/java/shared"/>
-	<classpathentry kind="src" path="test/system/validation"/>
-	<classpathentry kind="src" path="tools"/>
 	<classpathentry kind="lib" path="contrib/thriftfs/lib/hadoopthriftapi.jar"/>
 	<classpathentry kind="lib" path="contrib/thriftfs/lib/libthrift.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
